@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@400;700&display=swap');
+
+:root {
+    /* --primary-color: #00BFA6; */
+    --primary-color: #bf00b5;
+    --dark-gray: #6B7280;
+    --off-white: #F3F4F6;
+}
+
+
+body {
+    font-family: 'Mukta', sans-serif;
+    margin: 0px;
+    font-size: large;
+}
+
+hr {
+
+    margin: 2rem 0rem;
+}
+
+.containers {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.containers-centre {
+
+    max-width: 600px;
+    margin: auto;
+}
+
+.links {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+
+}
+
+.link-primary {
+    display: block;
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+    max-width: 140px;
+    margin: 1rem 1rem 1rem 0rem;
+    text-align: center;
+
+}
+
+.link-secondary {
+    display: block;
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    max-width: 140px;
+    margin: 1rem 1rem 1rem 0rem;
+    border: 1px solid var(--primary-color);
+
+    text-align: center;
+}
+.link {
+    display: block;
+    color: rgb(57, 228, 57);
+    border-radius: 0.5rem;
+    max-width: 300px;
+    margin: 2rem 2rem 2rem 0rem;
+    border: 1px solid var(--primary-color);
+    text-align: center;
+}
+
+.list-non-bullet {
+
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+.navigation {
+
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+
+}
+
+.navigation .navbrand {
+
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.navigation .navpills {
+
+    text-align: right;
+}
+
+.navigation .links {
+
+    color: white;
+}
+
+.navigation .links-active {
+    font-weight: bold;
+}
+
+.hero {
+    padding: 2rem;
+
+}
+
+.hero .hero-img {
+    width: 300px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading {
+    text-align: center;
+    padding-top: 1rem;
+    color: var(--dark-gray);
+}
+
+.hero .hero-heading .heading-inv {
+
+
+    color: var(--primary-color);
+}
+
+.section {
+    padding: 2rem;
+}
+
+.section h1 {
+
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.ow {
+    background-color: var(--off-white);
+}
+
+.footer {
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    border-top-right-radius: 1rem;
+    color: white;
+    bottom: 0px;
+
+}
+
+.footer .footer-heading {
+    font-weight: bold;
+    font-size: larger;
+
+}
+
+.footer .links {
+    color: white;
+}
+
+.footer ul {
+    margin-bottom: 0px;
+    width: 100%;
+    padding-inline-start: 0px;
+}
+
+.icon {
+    display: block;
+    background-image: "images/insta.svg";
+    background-image: "images/github.svg";
+    background-image: "images/twitter.svg";
+    background-image: "images/linkedin.svg";
+}
+
+.br {
+    display: block;
+    margin-bottom: 0rem;
+}
+
+.brmedium {
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.brlarge {
+    display: block;
+    margin-bottom: 2rem;
+}
+
+.date {
+
+    font-size: small;
+    text-align: center;
+}
+
+.blog-img {
+    max-width: 100%;
+    display: block;
+    margin: auto;
+}
+
+.icon-img {
+
+    text-align: left;
+    margin: auto;
+    width: 50px;
+}
+
+.fa {
+    padding: 20px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    margin: auto;
+    display: inline-block;
+}
+
+.fa-insta {
+    color: white;
+}
+
+
+.fa-github {
+    color: white;
+}
+
+.fa-linkedin {
+    color: white;
+}
+
+.fa-twitter {
+    color: white;
+}
